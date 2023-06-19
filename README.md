@@ -22,7 +22,7 @@ More complex builds:
 
 Equally complex builds:
 
- * [none]
+ * Use the Intel (instead of GCC) compiler: [gha_cmake_intel_cpp17](https://github.com/richelbilderbeek/gha_cmake_intel_cpp17)
 
 Less complex builds:
 
