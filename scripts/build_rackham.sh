@@ -27,7 +27,7 @@ fi
 module load gcc/13.1.0 cmake/3.26.3
 
 # Build
-./build.sh
+./scripts/build.sh
 
 # Run
 ./build/gha_cmake_gcc_cpp17
