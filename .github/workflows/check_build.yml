@@ -18,14 +18,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Set up CMake build folder for release mode, thanks https://stackoverflow.com/a/64719718
-        run: cmake -B build . -DCMAKE_BUILD_TYPE=Release 
-
-      - name: Run CMake
-        run: cmake --build build 
+      - name: Build
+        run: ./scripts/build.sh
 
       - name: Run the program
         run: ./build/gha_cmake_gcc_cpp17
-
-      - name: Get g++ version
-        run: g++ --version

@@ -24,5 +24,11 @@ else
   exit 42
 fi
 
-g++ main.cpp -o gha_gcc_cpp17
-./gha_gcc_cpp17
+module load gcc/13.1.0 cmake/3.26.3
+
+# Build
+./build.sh
+
+# Run
+./build/gha_cmake_gcc_cpp17
+
