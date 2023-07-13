@@ -19,6 +19,7 @@ More complex builds:
 
  * Use the Boost C++ libraries: [gha_cmake_gcc_cpp17_boost](https://github.com/richelbilderbeek/gha_cmake_gcc_cpp17_boost)
  * Use `gprof` to profile code: [gha_cmake_gcc_cpp17_gprof](https://github.com/richelbilderbeek/gha_cmake_gcc_cpp17_gprof)
+ * Use the SFML library: [gha_cmake_gcc_cpp17_sfml](https://github.com/richelbilderbeek/gha_cmake_gcc_cpp17_sfml)
 
 Equally complex builds:
 
